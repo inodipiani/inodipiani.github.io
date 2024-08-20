@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(to right, #ff7e5f, #feb47b);
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.container {
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.logo-container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.logo {
+	max-width: 250px;
+}
+
+.description p {
+	font-size: 1em;
+	margin-bottom: 20px;
+	color: #555;
+	text-align: start;
+}
+
+.description p:last-child {
+	margin-bottom: 0;
+}
+
+.buttons .button-container {
+	margin-bottom: 20px;
+}
+
+.buttons .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius: 30px;
+	transition: background-color 0.3s ease;
+	border: none;
+}
+
+.buttons .facebook {
+	background-color: #3b5998;
+}
+
+.buttons .facebook:hover {
+	background-color: #2d4373;
+}
+
+.buttons .telegram {
+	background-color: #0088cc;
+}
+
+.buttons .telegram:hover {
+	background-color: #0078a5;
+}
+
+.buttons .instagram {
+	background-color: #e4405f;
+}
+
+.buttons .instagram:hover {
+	background-color: #d73552;
+}
+
+.button-description {
+	font-size: 0.9em;
+	color: #666;
+	margin-top: 10px;
+}
+
+.button i {
+	margin-right: 10px;
+	font-size: 1.5em;
+}
